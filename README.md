@@ -16,7 +16,7 @@ Téléchargez et installez Symfony CLI depuis [le site officiel](https://symfony
 ### 2. Création du Projet
 Ouvrez votre terminal et exécutez la commande suivante :
 ```bash
-symfony new gestion_conges --full
+symfony new gestion_conges --webapp
 ```
 
 ### 3. Configuration de l'environnement
