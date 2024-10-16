@@ -79,7 +79,7 @@ Ajoutez les champs suivants : `id`, `dateDebut`, `dateFin`, `type`, `status`, `u
 
 Utilisez cette commande pour créer l'entité rapidement :
 ```bash
-php bin/console make:entity Conge --fields="dateDebut:datetime,dateFin:datetime,type:string,user:relation:ManyToOne"
+php bin/console make:entity Conge --fields="dateDebut:datetime,dateFin:datetime,type:string,statut:string,user:relation:ManyToOne"
 ```
 
 ### 7. Création des contrôleurs
