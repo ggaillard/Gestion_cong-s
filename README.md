@@ -243,7 +243,7 @@ Créez les vues suivantes :
 Utilisez les outils de débogage intégrés et écrivez des tests pour vérifier le bon fonctionnement de votre application.
 
 ## Conclusion
-Vous avez maintenant un projet Symfony fonctionnel pour la gestion des jours de congés. Continuez à explorer les fonctionnalités de Symfony pour enrichir votre application.
+Vous avez maintenant un projet Symfony fonctionnel pour la gestion des jours de congés.
 
 ### License
 Creative Commons pour le texte et MIT pour le code.
