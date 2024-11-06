@@ -1,4 +1,4 @@
-# Séance d'Entraînement Symfony
+# Séance d'entraînement Symfony
 ## Objectif
 Créer un projet Symfony de A à Z pour gérer les jours de congés de l'entreprise BTS-SIO-SLAM.
 
@@ -13,7 +13,7 @@ Créer un projet Symfony de A à Z pour gérer les jours de congés de l'entrepr
 ### 1. Installation de Symfony CLI
 Téléchargez et installez Symfony CLI depuis [le site officiel](https://symfony.com/download).
 
-### 2. Création du Projet
+### 2. Création du projet
 Ouvrez votre terminal et exécutez la commande suivante :
 ```bash
 symfony new gestion_conges --webapp
@@ -264,8 +264,6 @@ Créez les vues suivantes :
 ### 17. Tests et débogage
 Utilisez les outils de débogage intégrés et écrivez des tests pour vérifier le bon fonctionnement de votre application.
 
-## Conclusion
-Vous avez maintenant un projet Symfony fonctionnel pour la gestion des jours de congés.
 
 ### License
 Creative Commons pour le texte et MIT pour le code.
