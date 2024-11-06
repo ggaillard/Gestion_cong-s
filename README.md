@@ -162,21 +162,43 @@ Accédez à votre application via `http://localhost:8000`.
 ### 15. CRUD pour la gestion des congés
 Le projet inclut un système CRUD (Create, Read, Update, Delete) pour gérer les congés :
 
-#### 15.1. Créer un Congé
+#### 15.1. Génération automatique du CRUD pour l'entité User
+Pour automatiser la création des opérations CRUD, utilisez les commandes suivantes :
+```bash
+php bin/console make:crud User
+```
+Cela va générer :
+- Un contrôleur `UserController` avec les méthodes `index`, `show`, `new`, `edit`, et `delete`.
+- Des vues Twig correspondantes dans le dossier `templates/user`.
+- Une route dédiée pour chaque action dans le contrôleur.
+
+#### 15.2. Génération automatique du CRUD pour l'entité Conge
+Voici les actions principales disponibles pour gérer les congés
+```bash
+php bin/console make:crud Conge
+```
+Cela va également générer :
+- Un contrôleur `CongeController` avec les actions nécessaires.
+- Des vues Twig pour créer, afficher, modifier, et supprimer un congé dans le dossier `templates/conge`.
+- Des routes définies pour chaque action de gestion des congés.
+
+#### 15.3. Créer un congé
 - **Route** : `/conge/new`
 - **Action** : Permet à un utilisateur de créer un nouveau congé via un formulaire.
 
-#### 15.2. Lire la liste des Congés
+#### 15.4. Lire la liste des congés
 - **Route** : `/conge`
 - **Action** : Affiche une liste de tous les congés dans la base de données, incluant des liens pour modifier ou supprimer chaque congé.
 
-#### 15.3. Modifier un congé
+#### 15.5. Modifier un congé
 - **Route** : `/conge/{id}/edit`
 - **Action** : Permet à un utilisateur de modifier un congé existant via un formulaire pré-rempli.
 
-#### 15.4. Supprimer un congé
+#### 15.6. Supprimer un congé
 - **Route** : `/conge/{id}/delete`
 - **Action** : Permet à un utilisateur de supprimer un congé après confirmation.
+
+
 
 ### 16. Création des vues de base
 Créez les vues suivantes :
